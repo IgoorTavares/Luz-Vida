@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LUZ & VIDA HOME CARE</title>
+  <meta name="description" content="HOME CARE LUZ & VIDA — cuidado especializado para quem você ama, no conforto de casa." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS (confere: seu arquivo se chama style.css) -->
+   <link rel="icon" href="IMAGENS/LOGOHOMECARE.jpeg" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER (ref imagem 1) -->
+  <header class="header" id="inicio">
+    <div class="container header__inner">
+      <a class="logo" href="#inicio" aria-label="Ir para o início">
+        <span class="logo__mark" aria-hidden="true">
+  <img src="IMAGENS/LOGOHOMECARE.jpeg" alt="Luz & Vida Home Care">
+</span>
+
+        <span class="logo__text">
+          <span class="logo__text">
+  <strong>LUZ &amp; VIDA</strong>
+  <span>HOME CARE</span>
+</span>
+
+      </a>
+
+      <nav class="menu" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#lideranca">Liderança</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="btn btn--outline" href="#contato">Entre em contato</a>
+        <a class="btn" href="#trabalhe">Trabalhe conosco</a>
+      </div>
+
+      <button class="menu__mobile" aria-label="Abrir menu" onclick="document.body.classList.toggle('menu-open')">
+        ☰
+      </button>
+    </div>
+
+    <!-- Menu mobile -->
+    <div class="mobile-nav">
+      <a href="#sobre" onclick="document.body.classList.remove('menu-open')">Sobre</a>
+      <a href="#lideranca" onclick="document.body.classList.remove('menu-open')">Liderança</a>
+      <a href="#servicos" onclick="document.body.classList.remove('menu-open')">Serviços</a>
+      <a href="#depoimentos" onclick="document.body.classList.remove('menu-open')">Depoimentos</a>
+      <a href="#contato" onclick="document.body.classList.remove('menu-open')">Contato</a>
+      <div class="mobile-nav__actions">
+        <a class="btn btn--outline" href="#contato" onclick="document.body.classList.remove('menu-open')">Entre em contato</a>
+        <a class="btn" href="#trabalhe" onclick="document.body.classList.remove('menu-open')">Trabalhe conosco</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO (ref imagem 1) -->
+  <section class="hero" aria-label="Apresentação">
+    <div class="hero__bg" role="img" aria-label="Profissional cuidando de paciente em casa"></div>
+
+    <div class="container hero__content">
+      <div class="hero__panel">
+        <h1>LUZ &amp; VIDA<br><span>HOME CARE</span></h1>
+
+        <a class="btn btn--whats" href="https://wa.me/5511962402481?text=Olá!%20Quero%20saber%20sobre%20os%20serviços%20da%20Luz%20%26%20Vida."
+           target="_blank" rel="noopener noreferrer">
+          Consulte planos pelo WhatsApp
+        </a>
+
+        <p class="hero__text">
+          Cuidado especializado para quem você ama, no conforto de casa.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE (ref imagem 2) -->
+  <section class="section" id="sobre">
+    <div class="container split">
+      <div class="split__text">
+        <h2 class="title">Quem Somos</h2>
+
+        <p>
+          A <strong>LUZ &amp; VIDA HOME CARE</strong> nasce com o compromisso de oferecer assistência domiciliar
+          com segurança, acolhimento e excelência. Atuamos com equipe qualificada e supervisão técnica,
+          garantindo um cuidado contínuo e humanizado.
+        </p>
+
+        <p>
+          Mais do que técnica, entregamos <strong>presença</strong>, <strong>empatia</strong> e <strong>respeito</strong>.
+          Nosso objetivo é proporcionar tranquilidade para a família e qualidade de vida para o paciente.
+        </p>
+
+        <ul class="bullets">
+          <li>
+            <span class="bullet__icon">📍</span>
+            <span><strong>Atendemos:</strong> em São Paulo e região</span>
+          </li>
+          <li>
+            <span class="bullet__icon">⏱️</span>
+            <span><strong>Planos:</strong> 3h, 6h, 8h, 12h e 24h</span>
+          </li>
+          <li>
+            <span class="bullet__icon">📞</span>
+            <span><strong>Resposta rápida</strong> e suporte no nosso WhatsApp</span>
+          </li>
+        </ul>
+
+        <a class="btn btn--big" href="assets/folder.pdf" download>Baixe nosso folder informativo</a>
+      </div>
+
+      <div class="split__media">
+        <div class="photo photo--rounded" role="img" aria-label="Cuidadora conversando com paciente"
+             style="background-image:url('IMAGENS/fundamentos-de-enfermagem.jpg')" 
+      </div>
+    </div>
+  </section>
+
+  <!-- LIDERANÇA -->
+<section class="section section_alt" id="lideranca">
+  <div class="container">
+    <h2 class="title center">Liderança</h2>
+    <p class="subtitle center">
+      Uma equipe com experiência e responsabilidade técnica para garantir padrão assistencial.
+    </p>
+
+    <div class="cards cards-3">
+      <article class="card leader-card">
+        <figure class="leader-photo">
+          <img
+            src="IMAGENS/renatoo.png"
+            alt="Enf. Renato Simões Pereira"
+            loading="lazy"
+          />
+        </figure>
+
+        <h3 class="leader-name">ENF. RENATO SIMÕES PEREIRA</h3>
+
+        <p>Brasileiro, casado.</p>
+        <p><strong>Hobbies:</strong> Futebol, vôlei, corrida e leitura.</p>
+        <p><strong>Graduação:</strong> Bacharel em Enfermagem pela Universidade Cruzeiro do Sul.</p>
+        <p><strong>Experiência:</strong> 5 anos de atuação na área da enfermagem.</p>
+
+        <p class="muted leader-role">Responsável Técnico(a) • Renato Simões</p>
+      </article>
+        <!-- Card 2: Jullya -->
+  <article class="card leader-card">
+    <figure class="leader-photo">
+      <img
+        src="IMAGENS/admm.jpg"
+        alt="Jullya Guimarães Vieira"
+        loading="lazy"
+      />
+    </figure>
+
+    <h3 class="leader-name">JULLYA GUIMARÃES VIEIRA</h3>
+
+    <p>Brasileira, Casada </p>
+
+    <p><strong>Formação:</strong> Ensino Médio Completo.</p>
+
+    <p><strong>Cursos complementares (Informática completa):</strong></p>
+    <ul class="leader-list">
+      <li>Gestão empresarial e Marketing</li>
+      <li>Pacote Office (Excel, Word, PowerPoint)</li>
+      <li>Inglês avançado — certificação pela FISK e Universidade de Michigan</li>
+    </ul>
+
+    <p><strong>Hobbies / Interesses:</strong></p>
+    <ul class="leader-list">
+      <li>Estudar idiomas</li>
+      <li>Aprender e conhecer coisas novas</li>
+    </ul>
+
+    <p class="muted leader-role">Gerente Administrativa • Jullya Guimarães</p>
+  </article>
+</div>
+    </div>
+  </div>
+  </section>
+
+  <!-- SERVIÇOS (ref imagem 3) -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <h2 class="title center">Nossos Serviços</h2>
+
+      <div class="service-block">
+        <div class="service-block__media">
+          <div class="photo" role="img" aria-label="Profissional prestando cuidado domiciliar"
+               style="background-image:url('IMAGENS/nossos\ serviços.jpg')"></div>
+        </div>
+
+        <div class="service-block__content">
+          <h3>Atendimento domiciliar com equipe qualificada</h3>
+
+          <p class="muted">
+            Atendimento domiciliar com cuidadores, auxiliares ou técnicos de enfermagem,
+            conforme a complexidade do paciente e o plano de cuidado.
+          </p>
+
+          <p>
+            Indicado para pacientes idosos, com limitações físicas, em recuperação pós-operatória,
+            ou que necessitam de acompanhamento contínuo. Inclui cuidados com higiene, alimentação assistida,
+            mobilidade, organização de rotina e observação de sinais de alerta.
+          </p>
+
+          <p>
+            Nossa operação prioriza qualidade e humanização: profissionais selecionados, treinados,
+            com supervisão e registros do cuidado para facilitar acompanhamento e evolução.
+          </p>
+
+          <div class="benefits">
+            <div class="benefit">
+              <div class="benefit__icon" aria-hidden="true">★</div>
+              <div>
+                <strong>Supervisão próxima</strong>
+                <p class="muted">Mais acompanhamento do que uma operação menor permite.</p>
+              </div>
+            </div>
+
+            <div class="benefit">
+              <div class="benefit__icon" aria-hidden="true">⌁</div>
+              <div>
+                <strong>Triagem rigorosa</strong>
+                <p class="muted">Profissionais selecionados com critérios técnicos.</p>
+              </div>
+            </div>
+
+            <div class="benefit">
+              <div class="benefit__icon" aria-hidden="true">⏱</div>
+              <div>
+                <strong>Substituição rápida</strong>
+                <p class="muted">Agilidade para manter a continuidade do cuidado.</p>
+              </div>
+            </div>
+
+            <div class="benefit">
+              <div class="benefit__icon" aria-hidden="true">♡</div>
+              <div>
+                <strong>Relacionamento duradouro</strong>
+                <p class="muted">Valorização e estabilidade dos cuidadores.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-cta">
+            <a class="btn" href="#contato">Solicitar avaliação</a>
+            <a class="btn btn--outline" href="https://wa.me/5511962402481?text=Olá!%20Quero%20saber%20sobre%20os%20serviços%20da%20Luz%20%26%20Vida."
+               target="_blank" rel="noopener noreferrer">
+              Tirar dúvidas no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards extras de serviços (mais profissional / detalhado) -->
+      <div class="cards cards--3 mt">
+        <article class="card card--line">
+          <h3>Enfermagem domiciliar</h3>
+          <p class="muted">Cuidados conforme prescrição e plano assistencial.</p>
+          <ul class="list">
+            <li>Administração de medicações (conforme prescrição)</li>
+            <li>Curativos e prevenção de lesões</li>
+            <li>Controle de sinais vitais e registros</li>
+            <li>Cuidados com sondas/dispositivos (quando indicado)</li>
+          </ul>
+        </article>
+
+        <article class="card card--line">
+          <h3>Cuidador(a) / AVDs</h3>
+          <p class="muted">Apoio na rotina com conforto e segurança.</p>
+          <ul class="list">
+            <li>Higiene, troca, banho e conforto</li>
+            <li>Mobilidade, posicionamento e prevenção de quedas</li>
+            <li>Alimentação assistida (quando indicado)</li>
+            <li>Acompanhamento em atividades básicas</li>
+          </ul>
+        </article>
+
+        <article class="card card--line">
+          <h3>Fisioterapia</h3>
+          <p class="muted">Reabilitação funcional e respiratória conforme avaliação.</p>
+          <ul class="list">
+            <li>Fortalecimento, equilíbrio e marcha</li>
+            <li>Prevenção de quedas e descondicionamento</li>
+            <li>Técnicas respiratórias e orientações</li>
+            <li>Reavaliações e plano de evolução</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS (seção dedicada) -->
+  <section class="section section--alt" id="depoimentos">
+    <div class="container">
+      <h2 class="title center">Depoimentos</h2>
+      <p class="subtitle center">O que as famílias dizem sobre a LUZ &amp; VIDA HOME CARE.
+</p>
+
+      <div class="cards cards--3 mt">
+        <figure class="card quote">
+          <blockquote>“Roberta R.”</blockquote>
+          <figcaption>— Recebi atendimento da equipe Luz & Vida e fiquei impressionado com o profissionalismo e a dedicação. O cuidado foi humanizado e trouxe muita tranquilidade para minha família</figcaption>
+        </figure>
+
+        <figure class="card quote">
+          <blockquote>“José Silva”</blockquote>
+          <figcaption>— A empresa demonstra excelência em cada detalhe. Os enfermeiros são atenciosos, preparados e sempre dispostos a ajudar. Recomendo de olhos fechados!</figcaption>
+        </figure>
+
+        <figure class="card quote">
+          <blockquote>“Raphaella Nonato”</blockquote>
+          <figcaption>— Luz & Vida Home Care transmite confiança e segurança. O suporte oferecido fez toda a diferença no processo de recuperação, mostrando que realmente se preocupam com o bem-estar dos pacientes.</figcaption>
+        </figure>
+      </div>
+
+      <div class="center mt">
+        <a class="btn btn--outline" href="#contato">Quero solicitar avaliação</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRABALHE CONOSCO (placeholder) -->
+  <section class="section" id="trabalhe">
+    <div class="container">
+      <h2 class="title center">Trabalhe conosco</h2>
+      <p class="subtitle center">
+        Contratações feitas por indicação da nossa rede. Envie seu currículo para: <strong>luzevidacare@gmail.com</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTATO + FORM -->
+  <section class="section" id="contato">
+    <div class="container">
+      <h2 class="title center">Contato</h2>
+      <p class="subtitle center">Preencha o formulário e retornaremos o mais rápido possível.</p>
+
+      <div class="contact">
+        <form class="form" action="#" method="post">
+          <label>
+            Nome
+            <input type="text" name="nome" placeholder="Seu nome" required>
+          </label>
+
+          <label>
+            Telefone / WhatsApp
+            <input type="tel" name="telefone" placeholder="(--) ----------" required>
+          </label>
+
+          <label>
+            E-mail
+            <input type="email" name="email" placeholder="luzevidacare@gmail.com" required>
+          </label>
+
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="6" placeholder="Conte sua necessidade (ex.: 12h, 24h, enfermagem, cuidador, fisioterapia...)" required></textarea>
+          </label>
+
+          <button class="btn btn--big" type="submit">Enviar</button>
+
+          <p class="muted small">
+            (Formulário demonstrativo. Posso integrar com WhatsApp, e-mail ou Google Forms.)
+          </p>
+        </form>
+
+        <aside class="contact__info">
+          <div class="info-box">
+            <h3>Informações</h3>
+            <ul class="info">
+              <li><strong>Telefone:</strong> 11 96240-2481</li>
+              <li><strong>WhatsApp:</strong> 11 96240-2481</li>
+              <li><strong>E-mail:</strong> luzevidacare@gmail.com</li>
+              <li><strong>Endereço:</strong> Estrada São MIguel, 800. Guarulhos-SP</li>
+              <li><strong>Cidade/UF:</strong> São Paulo-SP</li>
+            </ul>
+
+            <a class="btn btn--outline" href="https://wa.me/5511962402481?text=Olá!%20Quero%20saber%20sobre%20os%20serviços%20da%20Luz%20%26%20Vida."
+               target="_blank" rel="noopener noreferrer">
+              Agendar pelo WhatsApp
+            </a>
+          </div>
+
+          <div class="map">
+  <iframe
+    src="https://www.google.com/maps?q=São+Paulo+SP&output=embed"
+    width="100%"
+    height="280"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (ref imagem 4, minimalista) -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__social">
+        <a class="social" href="------" aria-label="Facebook" title="Facebook">
+          <!-- ícone -->
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H8.1V12h2.3V9.8c0-2.3 1.4-3.6 3.5-3.6 1 0 2 .2 2 .2v2.2h-1.2c-1.2 0-1.6.7-1.6 1.5V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg>
+        </a>
+
+        <a class="social" href="------" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z"/></svg>
+        </a>
+
+        <a class="social" href="https://wa.me/5511962402481?text=Olá!%20Quero%20saber%20sobre%20os%20serviços%20da%20Luz%20%26%20Vida." aria-label="WhatsApp" title="WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 2.6 16.7L2 22l5.4-1.4A11 11 0 0 0 20.5 3.5zm-9.5 18a9 9 0 0 1-4.6-1.3l-.3-.2-3.2.8.9-3.1-.2-.3A9 9 0 1 1 11 21.5zm5.3-6.7c-.3-.2-1.7-.9-2-.9s-.5-.2-.7.2-.8.9-1 1.1-.4.2-.7 0a7.4 7.4 0 0 1-2.2-1.4 8.2 8.2 0 0 1-1.5-1.9c-.2-.3 0-.5.2-.7l.5-.6c.2-.2.2-.4.3-.6s0-.4 0-.6-.7-1.8-1-2.5c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.2 1.4 3.4 2.3 3.6 5.6 5c.8.3 1.5.5 2 .7.8.3 1.6.2 2.2.1.7-.1 1.7-.7 2-1.3s.3-1.2.2-1.3-.3-.2-.6-.4z"/></svg>
+        </a>
+
+        <a class="social" href="luzevidacare@gmail.com" aria-label="E-mail" title="E-mail">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+        </a>
+      </div>
+
+      <div class="footer__info">
+        <p><strong>Telefone:</strong> 11 96240-2481 • <strong>E-mail:</strong> Luzevidacare@gmail.com</p>
+        <p><strong>Endereço:</strong> Estrada São MIguel, 800. Guarulhos-SP </p>
+      </div>
+
+      <div class="footer__copy">
+        <p>Contratações feitas por indicação da nossa rede. Envie seu currículo para nós em nosso e-mail.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp (ref canto direito) -->
+  <a class="whats-float"
+     href="https://wa.me/5511962402481?text=Olá!%20Quero%20saber%20sobre%20os%20serviços%20da%20Luz%20%26%20Vida."
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Falar no WhatsApp">
+    <span class="whats-float__icon">🟢</span>
+    <span class="whats-float__text">WhatsApp</span>
+  </a>
+
+</body>
+</html>
